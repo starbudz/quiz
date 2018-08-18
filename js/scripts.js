@@ -1,13 +1,7 @@
-
-
-
-
-
-
 $(document).ready(function() {
-$("#questions .item").slice(0,2).show();
+$("#questions .item").slice(0,2).fadeIn();
 
-$(".more").click(function() {
+$(".next").click(function() {
 
     var items = $('#questions .item:visible').hide().last();
 

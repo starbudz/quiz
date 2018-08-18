@@ -18,7 +18,7 @@ h1{
 	background: transparent;
 	color: #226fbe;
 }
-button.previous{
+button.prev{
   float: left;
 }
 button{
@@ -27,4 +27,13 @@ button{
 input{
   float: left;
   text-align: left;
+}
+.submit{
+  display: none;
+}
+.prev{
+  display: none;
+}
+.next{
+  display: none;
 }
