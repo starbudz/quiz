@@ -37,3 +37,7 @@ input{
 .next{
   display: none;
 }
+.intro {
+  text-align: center;
+  font-weight: bold;
+}
