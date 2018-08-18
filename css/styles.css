@@ -1,0 +1,30 @@
+html{
+  font-variant: small-caps;
+  font-size: 30px;
+}
+h1{
+  text-align: center;
+}
+#questions .item {
+  float:center;
+  display:none;
+  text-align: left;
+}
+.btn-6d {
+	border: 2px dashed #226fbe;
+}
+
+.btn-6d:hover {
+	background: transparent;
+	color: #226fbe;
+}
+button.previous{
+  float: left;
+}
+button{
+    float: right;
+  }
+input{
+  float: left;
+  text-align: left;
+}
