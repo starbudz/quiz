@@ -1,7 +1,6 @@
 html{
-  font-variant: small-caps;
   font-size: 30px;
-}
+  }
 h1{
   text-align: center;
 }
@@ -10,31 +9,13 @@ h1{
   display:none;
   text-align: left;
 }
-.btn-6d {
-	border: 2px dashed #226fbe;
-}
 
-.btn-6d:hover {
-	background: transparent;
-	color: #226fbe;
-}
-button.prev{
-  float: left;
-}
-button{
-    float: right;
-  }
-input{
-  float: left;
-  text-align: left;
+.next{
+  float:right;
+  display: none;
 }
 .submit{
-  display: none;
-}
-.prev{
-  display: none;
-}
-.next{
+  float:right;
   display: none;
 }
 .intro {
