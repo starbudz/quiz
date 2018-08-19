@@ -9,7 +9,9 @@ h1{
   display:none;
   text-align: left;
 }
-
+.result{
+  display: none;
+}
 .next{
   float:right;
   display: none;
