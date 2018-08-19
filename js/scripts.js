@@ -1,5 +1,6 @@
 $(document).ready(function() {
-$("#questions .item").slice(0,2).fadeIn();
+  $(".begin").click(function() {
+$("#questions .item").slice(0,2).show();
 
 $(".next").click(function() {
 
@@ -16,5 +17,6 @@ $(".next").click(function() {
     }
 
     nextItems.show();
+});
 });
 });
