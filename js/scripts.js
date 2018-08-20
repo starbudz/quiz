@@ -45,10 +45,9 @@ function calculateScore() {
 
   console.log('your score is: ' + score);
 
-  //lets display the score in the div element
+
   $('.result').html('Your Score: ' + score);
 
-  //show element since we've hid it in csscalculateScore()
   $('.result').show();
 
   scrollUp();
@@ -70,51 +69,51 @@ function validate() {
 
 
   if ($("input[name='question1']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the first answer');
+    $('.result').text('Please answer question 1');
     scrollUp();
     return false;
   } else if (jQuery("input[name='question2']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the second answer');
+    $('.result').text('Please answer question 2');
     scrollUp();
     return false;
   } else if ($("input[name='question3']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the third answer');
+    $('.result').text('Please answer question 3');
     scrollUp();
     return false;
   } else if ($("input[name='question4']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the final answer');
+    $('.result').text('Please answer question 4');
     scrollUp();
     return false;
   } else if ($("input[name='question5']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the final answer');
+    $('.result').text('Please answer question 5');
     scrollUp();
     return false;
   } else if ($("input[name='question6']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the final answer');
+    $('.result').text('Please answer question 6');
     scrollUp();
     return false;
   } else if ($("input[name='question7']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the final answer');
+    $('.result').text('Please answer question 7');
     scrollUp();
     return false;
   } else if ($("input[name='question8']").is(':checked') == false) {
-    //show element since we've hid it in css
+
     $('.result').show();
-    $('.result').text('Please select the final answer');
+    $('.result').text('Please answer question 8');
     scrollUp();
     return false;
   } else {

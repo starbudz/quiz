@@ -2,8 +2,8 @@
 #### This is a simple quiz meant to test for understanding of basic JavaScript concepts 19/08/2018
 #### By **VICTOR KINYANJUI**
 ## Description
-  ##This is a simple quiz meant to test for understanding of basic JavaScript concepts.
-*
+  ## This is a simple quiz meant to test for understanding of basic JavaScript concepts.
+* 
 ## Setup/Installation Requirements
 * Web browser with JavaScript, HTML5 and CSS3.
 ## Known Bugs
