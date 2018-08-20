@@ -1,13 +1,13 @@
 // front end begin
 $(document).ready(function() {
         $(".begin").click(function() {
-          $("#questions .item").slice(0, 4).fadeIn("slow");
-          $(".intro").fadeOut("slow");
+          $("#questions .item").slice(0, 4).fadeIn();
+          $(".intro").fadeOut();
           $(".next").show();
 
           $(".next").click(function() {
 
-            var items = $('#questions .item:visible').fadeOut("slow").last();
+            var items = $('#questions .item:visible').fadeOut().last();
 
             var nextItems = items.nextAll().slice(0, 4);
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
             } else $(".submit").show();
             $(".next").hide();
 
-            nextItems.fadeIn("slow");
+            nextItems.fadeIn();
           });
         });
       });
@@ -46,10 +46,10 @@ function calculateScore(){
      console.log('your score is: '+score);
 
      //lets display the score in the div element
-     jQuery('.result').html('Your Score: '+score);
+     $('.result').html('Your Score: '+score);
 
      //show element since we've hid it in csscalculateScore()
-     jQuery('.result').show();
+     $('.result').show();
 
      scrollUp();
    }
@@ -67,55 +67,55 @@ function calculateScore(){
  }
 
  function validate(){
-   calculateScore();
 
-     if(jQuery("input[name='question1']").is(':checked') == false){
+
+     if($("input[name='question1']").is(':checked') == false){
          //show element since we've hid it in css
-         jQuery('.result').show();
-         jQuery('.result').text('Please select the first answer');
+         $('.result').show();
+         $('.result').text('Please select the first answer');
          scrollUp();
          return false;
      }else if(jQuery("input[name='question2']").is(':checked') == false){
          //show element since we've hid it in css
-         jQuery('.result').show();
-         jQuery('.result').text('Please select the second answer');
+         $('.result').show();
+         $('.result').text('Please select the second answer');
          scrollUp();
          return false;
-     }else if(jQuery("input[name='question3']").is(':checked') == false){
+     }else if($("input[name='question3']").is(':checked') == false){
          //show element since we've hid it in css
-         jQuery('.result').show();
-         jQuery('.result').text('Please select the third answer');
+         $('.result').show();
+         $('.result').text('Please select the third answer');
          scrollUp();
          return false;
      }
-     else if(jQuery("input[name='question4']").is(':checked') == false){
+     else if($("input[name='question4']").is(':checked') == false){
            //show element since we've hid it in css
-           jQuery('.result').show();
-           jQuery('.result').text('Please select the final answer');
+           $('.result').show();
+           $('.result').text('Please select the final answer');
            scrollUp();
            return false;
-     }else if(jQuery("input[name='question5']").is(':checked') == false){
+     }else if($("input[name='question5']").is(':checked') == false){
            //show element since we've hid it in css
-           jQuery('.result').show();
-           jQuery('.result').text('Please select the final answer');
+           $('.result').show();
+           $('.result').text('Please select the final answer');
            scrollUp();
            return false;
-     }else if(jQuery("input[name='question6']").is(':checked') == false){
+     }else if($("input[name='question6']").is(':checked') == false){
            //show element since we've hid it in css
-           jQuery('.result').show();
-           jQuery('.result').text('Please select the final answer');
+           $('.result').show();
+           $('.result').text('Please select the final answer');
            scrollUp();
            return false;
-     }else if(jQuery("input[name='question7']").is(':checked') == false){
+     }else if($("input[name='question7']").is(':checked') == false){
            //show element since we've hid it in css
-           jQuery('.result').show();
-           jQuery('.result').text('Please select the final answer');
+           $('.result').show();
+           $('.result').text('Please select the final answer');
            scrollUp();
            return false;
-     }else if(jQuery("input[name='question8']").is(':checked') == false){
+     }else if($("input[name='question8']").is(':checked') == false){
            //show element since we've hid it in css
-           jQuery('.result').show();
-           jQuery('.result').text('Please select the final answer');
+           $('.result').show();
+           $('.result').text('Please select the final answer');
            scrollUp();
            return false;
      }else{
@@ -127,6 +127,6 @@ function calculateScore(){
 
  function refresh(){
 
-    jQuery('.result').hide();
+    $('.result').hide();
     scrollUp();
  }
