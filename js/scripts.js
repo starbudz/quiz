@@ -24,6 +24,18 @@ $(document).ready(function() {
     });
   });
 });
+
+function scrollUp() {
+  $("html, body").animate({
+    scrollTop: $(document).height()
+  }, 100);
+
+  //scroll back up
+  $("html, body").animate({
+    scrollTop: 0
+  }, 100);
+}
+
 // front end fin
 // back end begin
 function calculateScore() {
@@ -53,17 +65,6 @@ function calculateScore() {
   scrollUp();
 }
 
-
-function scrollUp() {
-  $("html, body").animate({
-    scrollTop: $(document).height()
-  }, 100);
-
-  //scroll back up
-  $("html, body").animate({
-    scrollTop: 0
-  }, 100);
-}
 
 function validate() {
 
@@ -121,10 +122,4 @@ function validate() {
   }
 
 
-}
-
-function refresh() {
-
-  $('.result').hide();
-  scrollUp();
 }
