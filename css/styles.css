@@ -1,14 +1,22 @@
-html{
-  font-size: 30px;
-  }
+html, body, .container {
+   height:100%;
+   width:100%;
+   background-image: url('../img/4683.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+}
 h1{
   text-align: center;
+}
+.well, .jumbotron {
+   background-color: rgba(245, 245, 245, 0.4);
 }
 #questions .item {
   float:center;
   display:none;
   text-align: left;
 }
+
 .result{
   display: none;
 }

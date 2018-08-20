@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <div class="container">
 
     <div class="jumbotron">
@@ -26,9 +25,10 @@
       <p>The durations of this test is 15 minutes</p>
       <p>Good Luck</p>
       <button class="begin btn btn-warning btn-lg" href="#">Begin Test</button>
+        <div class="result"></div>
     </div>
 
-  <h3 class="result"></h3>
+
     <form id="questions">
       <div class="well item">
         <div>Can you access Cookie using javascript?</div>
@@ -104,10 +104,12 @@
       </div>
     </form>
 
-    <button type="button" class="submit btn btn-info" onclick="calculateScore()" >Submit</button>
+    <input class="submit btn btn-success" type="button" value="Grade Me!" name="submit" onClick="validate()" />
+    <input class="submit btn btn-success" type="reset" value="Reset" name="reset"  onClick="refresh()" />
     <button class="next btn btn-info" href="#">Next</button>
     <hr class="featurette-divider"></hr>
     <p class="footnote">Made by Victor</p>
+    <p class="footnote">Background Designed by macrovector / Freepik</p>
   </div>
 </body>
 
