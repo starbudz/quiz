@@ -12,7 +12,29 @@ html, body, .container {
 h1 {
   text-align: center;
 }
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #151515;
+  background-color: rgba(245, 245, 245, 0.4);
+  border: none;
+  margin: none;
+  border-radius: 15px;
 
+}
+
+button:hover {background-color: #d3d3d3;}
+
+button:active {
+  background-color: #696969
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .well, .jumbotron {
   background-color: rgba(245, 245, 245, 0.4);
 }
