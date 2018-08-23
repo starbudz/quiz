@@ -15,7 +15,7 @@
 * There is a next button at the bottom of the first "questions" page that displays the next four questions
 * There is a Try again button that redirects users to the intro page.
 ## Setup/Installation Requirements
-* Web browser with JavaScript, HTML5 and CSS3.
+* Web browser with JavaScript, HTML5......
 ## Known Bugs
 * No known Bugs
 ## Technologies Used
